@@ -4,6 +4,9 @@
   <img src="red-green-blue-gophers-smaller.png" />
 </p>
 
+
+[notes](./notes.md ':include')
+
 [Art by Denise](https://twitter.com/deniseyu21)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/quii/learn-go-with-tests)](https://goreportcard.com/report/github.com/quii/learn-go-with-tests)

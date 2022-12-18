@@ -49,7 +49,7 @@ func BenchmarkRepeat(b *testing.B) {
 ```
 mySlice := []int{1,2,3} 而不是 mySlice := [3]int{1,2,3}
 ```
-`M
+
 2. 可变参数 `...`
 ```go
 func SumAllTails(numbersToSum ...[]int) (sums []int) {
