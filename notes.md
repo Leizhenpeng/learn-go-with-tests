@@ -23,10 +23,7 @@
 
 
 ## integer
-
-
-
-1, run `go test` will auto test it
+1. run `go test` will auto test it
 
 ```
 func ExampleAdd() {
@@ -36,4 +33,13 @@ func ExampleAdd() {
 }
 ```
 
+## iteration
+1. `go test -bench=.`
 
+```
+func BenchmarkRepeat(b *testing.B) {
+    for i := 0; i < b.N; i++ {
+        Repeat("a")
+    }
+}
+```
