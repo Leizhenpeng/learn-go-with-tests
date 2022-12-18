@@ -10,8 +10,8 @@ func Sum(numbers []int) int {
 }
 
 // SumAllTails calculates the sums of all but the first number given a collection of slices.
-func SumAllTails(numbersToSum ...[]int) []int {
-	var sums []int
+func SumAllTails(numbersToSum ...[]int) (sums []int) {
+
 	for _, numbers := range numbersToSum {
 		if len(numbers) == 0 {
 			sums = append(sums, 0)
